@@ -70,7 +70,7 @@ def get_block_context(lines, keyword, pre_len=5, post_len=25):
 
 def do_text_extract():
     """
-    执行本地文本流提取流程（严格对应三页考核大纲要求）
+    执行本地文本流提取流程
     """
     print(">>> 正在加载原始文本...")
     lines_raw = load_paper_data(SRC_FILE)
